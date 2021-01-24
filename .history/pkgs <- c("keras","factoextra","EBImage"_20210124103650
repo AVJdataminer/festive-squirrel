@@ -1,0 +1,5 @@
+pkgs <- c("keras","factoextra","EBImage","png","cowplot","ggplo2","abind","dply","plyr","tidyr","stringr","purrr","magrittr","reshape2","foreach","doParallel","rmarkdown","knitr","rjson")
+
+download.packages(pkgs, destdir, available = NULL,
+                  CRAN = options("CRAN"), method = "auto",
+                  contriburl = contrib.url(CRAN))
